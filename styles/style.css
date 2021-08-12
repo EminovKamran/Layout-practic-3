@@ -1,0 +1,19 @@
+@import "home_page.css";
+@import "coffee_blogs.css";
+@import "footer.css";
+@font-face {
+  font-family: CedarvilleCursive;
+  src: url("./fonts/CedarvilleCursive-Regular.ttf");
+}
+@font-face {
+  font-family: JosefinSans;
+  src: url("./fonts/JosefinSans-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: AlegreyaSans;
+  src: url("./fonts/AlegreyaSans-Regular.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}

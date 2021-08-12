@@ -1,0 +1,93 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 150px;
+}
+@media (max-width: 768px) {
+  footer {
+    padding: 0;
+  }
+}
+footer .maps_and_address {
+  display: flex;
+  padding: 131px 0 153px 0;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  footer .maps_and_address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+footer  .maps_and_address .our_address ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer .maps_and_address .line {
+  padding: 44px 100px 0 100px;
+}
+@media (max-width: 768px) {
+  footer .maps_and_address .line {
+    display: none;
+  }
+}
+footer .maps_and_address .our_address .our_address_style {
+  font-size: 32px;
+  font-family: JosefinSans, sans-serif;
+  line-height: 45px;
+  font-weight: bold;
+  padding: 44px 0 0 0;
+}
+footer  .maps_and_address .our_address ul li {
+  font-size: 19px;
+  line-height: 36px;
+  font-family: AlegreyaSans, sans-serif;
+  font-weight: 400;
+  color: #444A4A;
+}
+footer .copyright {
+  font-size: 19px;
+  line-height: 36px;
+  font-family: AlegreyaSans, sans-serif;
+  font-weight: 400;
+  color: #444A4A;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  footer .copyright {
+    margin: 0;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #444A4A;
+  }
+}
+footer .maps_and_address .maps_autograph {
+  font-family: CedarvilleCursive, sans-serif;
+  font-size: 28px;
+  line-height: 53px;
+  color: #444A4A;
+  writing-mode: tb-rl;
+  transform: rotate(180deg);
+  position: absolute;
+}
+@media (max-width: 768px) {
+  footer .maps_and_address .maps_autograph {
+    display: none;
+  }
+}
+footer .maps_and_address .maps .mob_img {
+  display: none;
+}
+@media (max-width: 768px) {
+  footer .maps_and_address .maps .mob_img {
+    display: block;
+  }
+  footer .maps_and_address .maps .main_img {
+    display: none;
+  }
+}
